@@ -1,0 +1,18 @@
+
+//zwischen User und Werbung kurzester Weg
+
+
+MATCH (p1:TwitterUser { }),(p2:AdvertisementNode {}),
+  p = shortestPath((p1)-[*]-(p2))
+RETURN p limit 50
+
+//Welchen Topics gehört gegebene Werbung 
+
+MATCH (a:AdvertisementNode { name:'Baby & Toddler' }),(t:Topic { }),
+result=a-[*0..1]-t
+RETURN result
+
+//gegenteil
+MATCH (a:Topic {name:'day' }),(t:AdvertisementNode {}),
+result=a-[*0..1]-t
+RETURN result
