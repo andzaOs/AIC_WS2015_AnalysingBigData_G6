@@ -34,7 +34,7 @@ Team work - group of 4 people
 
 Database manipulation (MySql and Neo4J):
 
-* managed users and user metadata with MySql
+* managed users and user metadata with MySql through Spring MVC
 * wrote and tested Neo4J queries
 * made queries executable from the web application
 
