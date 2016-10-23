@@ -36,6 +36,7 @@ Database manipulation (MySql and Neo4J):
 
 * managed users and user metadata with MySql
 * wrote and tested Neo4J queries
+* made queries executable from the web application
 
 **Project description** https://github.com/aosmanovic/AIC_WS2015_AnalysingBigData_G6/blob/master/Documentation/TopicDescription.pdf
 
