@@ -30,7 +30,12 @@ Team work - group of 4 people
 
 **IDE:** Eclipse
 
-**Responsibilities:** Database manipulation (MySql and Neo4J)
+**Responsibilities:** 
+
+Database manipulation (MySql and Neo4J):
+
+* managed users and user metadata with MySql
+* wrote and tested Neo4J queries
 
 **Project description** https://github.com/aosmanovic/AIC_WS2015_AnalysingBigData_G6/blob/master/Documentation/TopicDescription.pdf
 
